@@ -1,0 +1,179 @@
+[gd_scene load_steps=18 format=3 uid="uid://4qh0c3jbg87y"]
+
+[ext_resource type="Texture2D" uid="uid://c7heyb7ywfjoe" path="res://assets/Zombie Apocalypse Tileset Reference.png" id="1_3pj6c"]
+[ext_resource type="Script" path="res://scripts/trash.gd" id="1_mqhgt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqcgr"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(17, 210, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vjpc8"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(34, 210, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_at4mk"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(646, 191, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vwx1"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(255, 20, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3tiuc"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(85, 172, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_youep"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(51, 210, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssa2e"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(85, 210, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8ib2"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(17, 229, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6jeu0"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(34, 229, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eo655"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(51, 229, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_af8fo"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(68, 229, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ax8fj"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(561, 20, 16, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f7m13"]
+atlas = ExtResource("1_3pj6c")
+region = Rect2(136, 115, 16, 15)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_elpbw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqcgr")
+}],
+"loop": true,
+"name": &"0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vjpc8")
+}],
+"loop": true,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_at4mk")
+}],
+"loop": true,
+"name": &"10",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vwx1")
+}],
+"loop": true,
+"name": &"11",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3tiuc")
+}],
+"loop": true,
+"name": &"12",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_youep")
+}],
+"loop": true,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ssa2e")
+}],
+"loop": true,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g8ib2")
+}],
+"loop": true,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6jeu0")
+}],
+"loop": true,
+"name": &"5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eo655")
+}],
+"loop": true,
+"name": &"6",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_af8fo")
+}],
+"loop": true,
+"name": &"7",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ax8fj")
+}],
+"loop": true,
+"name": &"8",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f7m13")
+}],
+"loop": true,
+"name": &"9",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7uclw"]
+radius = 8.06226
+
+[node name="trash" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_mqhgt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_elpbw")
+animation = &"0"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_7uclw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
