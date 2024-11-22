@@ -1,7 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1731818905
+::res://::1731821442
 icon.svg::CompressedTexture2D::2009730725351236007::1727572288::1731818907::1::::<><>::
-::res://assets/::1727630639
+::res://addons/::1731820987
+::res://addons/godot_super-wakatime/::1731819518
+.wakatime.cfg::TextFile::-1::1731821353::0::1::::<><>::
+api_key_prompt.tscn::PackedScene::3919262858641749045::1731819209::0::1::::<><>::
+counter.tscn::PackedScene::6849360014225833986::1731819209::0::1::::<><>::
+decompressor.gd::GDScript::-1::1731819209::0::1::::<>RefCounted<>::
+godot_super-wakatime.gd::GDScript::-1::1731819209::0::1::::<>EditorPlugin<>::
+heartbeat.gd::GDScript::-1::1731819209::0::1::::<>RefCounted<>::
+plugin.cfg::TextFile::-1::1731821241::0::1::::<><>::
+README.md::TextFile::-1::1731819209::0::1::::<><>::
+utils.gd::GDScript::-1::1731819209::0::1::::<>RefCounted<>::
+::res://assets/::1731818907
 Cliff.png::CompressedTexture2D::7691191735865653982::1727572470::1731818907::1::::<><>::
 Environment.png::CompressedTexture2D::288884946834692190::1727572470::1731818907::1::::<><>::
 Forest Props.png::CompressedTexture2D::1957957008035312418::1727577136::1731818907::1::::<><>::
@@ -17,9 +28,9 @@ trees.tscn::PackedScene::4053676320034146883::1727630639::0::1::::<><>::uid://dv
 Water Flora.png::CompressedTexture2D::7958847139248379791::1727572470::1731818907::1::::<><>::
 Water Tileset.png::CompressedTexture2D::8806764393676851380::1727572470::1731818907::1::::<><>::
 Zombie Apocalypse Tileset Reference.png::CompressedTexture2D::7033620838183588620::1727572497::1731818907::1::::<><>::
-::res://scenes/::1728332348
-game.tscn::PackedScene::4369556143774301939::1728332348::0::1::::<><>::uid://dgxbidvs2bktq::::res://scenes/player.tscn<>res://scripts/game_manager.gd<>uid://dvm8oiaciqnnb::::res://assets/Trees.png<>uid://g1d650enu8v6::::res://assets/Ground Tileset.png<>uid://25pjbln7jyik::::res://assets/Forest Props.png<>uid://dlnlbxk0jpgvf::::res://assets/Water Flora.png<>uid://dl548m5cy5aip::::res://assets/Tileset.png<>uid://dxqcegbwjewfc::::res://assets/Water Tileset.png<>uid://ll0bn8h7k2yr::::res://assets/Stone Path Tileset.png<>uid://c7heyb7ywfjoe::::res://assets/Zombie Apocalypse Tileset Reference.png
-player.tscn::PackedScene::7627950995459791350::1728332348::0::1::::<><>::res://scripts/player.gd<>uid://pr5ldv544x4w::::res://assets/player.png
+::res://scenes/::1731821357
+game.tscn::PackedScene::4369556143774301939::1731821357::0::1::::<><>::uid://dgxbidvs2bktq::::res://scenes/player.tscn<>res://scripts/game_manager.gd<>uid://dvm8oiaciqnnb::::res://assets/Trees.png<>uid://g1d650enu8v6::::res://assets/Ground Tileset.png<>uid://25pjbln7jyik::::res://assets/Forest Props.png<>uid://dlnlbxk0jpgvf::::res://assets/Water Flora.png<>uid://dl548m5cy5aip::::res://assets/Tileset.png<>uid://dxqcegbwjewfc::::res://assets/Water Tileset.png<>uid://ll0bn8h7k2yr::::res://assets/Stone Path Tileset.png<>uid://c7heyb7ywfjoe::::res://assets/Zombie Apocalypse Tileset Reference.png
+player.tscn::PackedScene::7627950995459791350::1731820526::0::1::::<><>::res://scripts/player.gd<>uid://pr5ldv544x4w::::res://assets/player.png
 trash.tscn::PackedScene::2068976322076637372::1727634902::0::1::::<><>::uid://c7heyb7ywfjoe::::res://assets/Zombie Apocalypse Tileset Reference.png<>res://scripts/trash.gd
 ::res://scripts/::1727635163
 game_manager.gd::GDScript::-1::1727635163::0::1::::<>Node<>::
