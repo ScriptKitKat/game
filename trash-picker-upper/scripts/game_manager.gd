@@ -19,4 +19,5 @@ func generate_trash():
 		trash_instance.position = Vector2(rand_x, rand_y)
 		
 		add_child(trash_instance)
+		
 	

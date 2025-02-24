@@ -12,5 +12,5 @@ func randomize_trash_tiles():
 	animated_sprite_2d.play(random_trash_tile)
 
 func _on_body_entered(body: Node2D) -> void:
-	emit_signal("trash_collected")  
+	Signalbus.trash_collected.emit()
 	queue_free()
