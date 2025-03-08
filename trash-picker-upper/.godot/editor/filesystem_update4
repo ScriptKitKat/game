@@ -2,4 +2,4 @@ res://scenes/game.tscn
 res://assets/water.tres
 res://assets/water_material.tres
 res://scenes/player.tscn
-res://scenes/trash.tscn
+res://scenes/water_collision.gd

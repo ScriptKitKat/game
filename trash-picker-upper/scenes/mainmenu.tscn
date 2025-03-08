@@ -1,0 +1,104 @@
+[gd_scene load_steps=6 format=3 uid="uid://ci3gflslryx1w"]
+
+[ext_resource type="Script" path="res://scripts/mainmenu.gd" id="1_4wwq7"]
+[ext_resource type="Texture2D" uid="uid://csttcvgd2v5sc" path="res://assets/background.png" id="2_kbt21"]
+[ext_resource type="FontFile" uid="uid://bovem5n7iar5t" path="res://assets/Insanibc.ttf" id="3_wwwf4"]
+[ext_resource type="Texture2D" uid="uid://bwlyllvfhx0wh" path="res://assets/logo_restoria.png" id="4_0kqk3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_40sj5"]
+
+[node name="Mainmenu" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_4wwq7")
+
+[node name="background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_kbt21")
+
+[node name="MenuOptions" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = -129.0
+offset_right = 464.0
+offset_bottom = 261.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="startButton" type="Button" parent="MenuOptions"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../exitButton")
+focus_neighbor_bottom = NodePath("../settingsButton")
+focus_next = NodePath("../settingsButton")
+focus_previous = NodePath("../exitButton")
+theme_override_fonts/font = ExtResource("3_wwwf4")
+theme_override_font_sizes/font_size = 70
+theme_override_styles/normal = SubResource("StyleBoxEmpty_40sj5")
+text = "Start game"
+alignment = 2
+
+[node name="settingsButton" type="Button" parent="MenuOptions"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../startButton")
+focus_neighbor_bottom = NodePath("../exitButton")
+focus_next = NodePath("../exitButton")
+focus_previous = NodePath("../startButton")
+theme_override_fonts/font = ExtResource("3_wwwf4")
+theme_override_font_sizes/font_size = 70
+theme_override_styles/normal = SubResource("StyleBoxEmpty_40sj5")
+text = "Settings"
+alignment = 2
+
+[node name="exitButton" type="Button" parent="MenuOptions"]
+layout_mode = 2
+focus_neighbor_top = NodePath("../settingsButton")
+focus_neighbor_bottom = NodePath("../startButton")
+focus_next = NodePath("../startButton")
+focus_previous = NodePath("../settingsButton")
+theme_override_fonts/font = ExtResource("3_wwwf4")
+theme_override_font_sizes/font_size = 70
+theme_override_styles/normal = SubResource("StyleBoxEmpty_40sj5")
+text = "Exit"
+alignment = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -547.0
+offset_top = -94.0
+offset_right = 477.0
+offset_bottom = 930.0
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_0kqk3")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -576.0
+offset_top = -248.0
+offset_right = -59.0
+offset_bottom = -114.0
+theme_override_fonts/font = ExtResource("3_wwwf4")
+theme_override_font_sizes/font_size = 120
+text = "Restoria"
+
+[connection signal="pressed" from="MenuOptions/startButton" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="MenuOptions/settingsButton" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="MenuOptions/exitButton" to="." method="_on_exit_pressed"]

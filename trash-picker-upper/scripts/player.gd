@@ -14,9 +14,8 @@ func get_input():
 	return input.normalized()
 
 func _process(delta: float):
-	
 	var direction = get_input()
-	
+
 	velocity = direction * SPEED
 	
 	move_and_slide()

@@ -1,6 +1,9 @@
 res://addons/godot_super-wakatime/api_key_prompt.tscn::a6988a5ba43d5aa92a08f216c1db28db::1731819209::res://.godot/exported/133200997/export-cd8705cb5e2533bd79c64579ac674dae-api_key_prompt.scn
 res://addons/godot_super-wakatime/counter.tscn::7f13ad35960e259f6de719f9785ce249::1731819209::res://.godot/exported/133200997/export-4af6c9115c1c285af5925fa1ce6a526e-counter.scn
 res://assets/trees.tscn::26ede504703edcc217af8ec2a9ce4b2b::1727630639::res://.godot/exported/133200997/export-995f7db429424213ab73d066110575b4-trees.scn
-res://scenes/game.tscn::a13c78dccec15f70b586efa55eebb79e::1739336840::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
-res://scenes/player.tscn::8f2ab5ee32e19c91e96965f6a6bbeffc::1739336841::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
-res://scenes/trash.tscn::06d0f0a7dd9371401fe3529f8616f853::1739336841::res://.godot/exported/133200997/export-42dbd0383d4719fd4fa69da2b9b5a50b-trash.scn
+res://scenes/game.tscn::952e69278e7d7f757c5c811559f9142d::1740627538::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/player.tscn::a96c1134003bc9fae82dbed64761574c::1740625455::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/trash.tscn::06d0f0a7dd9371401fe3529f8616f853::1740549691::res://.godot/exported/133200997/export-42dbd0383d4719fd4fa69da2b9b5a50b-trash.scn
+res://assets/water.tres::0ca74ec0b838e27baed572eec5971230::1740627538::res://.godot/exported/133200997/export-c8dc23cd72b82029c4d6f37781e61428-water.res
+res://assets/water_material.tres::6c696587ea3d6e2331a7f4a5519a91ee::1740627538::res://.godot/exported/133200997/export-a72ea8f8c4161467b5d04692451587bd-water_material.res
+res://scenes/mainmenu.tscn::142c8c72f409f953532b21326844a52e::1740549705::res://.godot/exported/133200997/export-1a75c62674f0e88c69acf03f4897b8b1-mainmenu.scn
