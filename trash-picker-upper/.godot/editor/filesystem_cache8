@@ -1,58 +1,60 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741457802
-.wakatime.cfg::TextFile::-1::1731821353::0::1::::<><>::
-export_presets.cfg::TextFile::-1::1740627824::0::1::::<><>::
-icon.svg::CompressedTexture2D::2009730725351236007::1727572288::1731818907::1::::<><>::
-::res://addons/::1731821577
-::res://addons/godot_super-wakatime/::1731821569
-api_key_prompt.tscn::PackedScene::3919262858641749045::1731819209::0::1::::<><>::
-counter.tscn::PackedScene::6849360014225833986::1731819209::0::1::::<><>::
-decompressor.gd::GDScript::-1::1731819209::0::1::::<>RefCounted<>::
-godot_super-wakatime.gd::GDScript::-1::1731819209::0::1::::<>EditorPlugin<>::
-heartbeat.gd::GDScript::-1::1731819209::0::1::::<>RefCounted<>::
-plugin.cfg::TextFile::-1::1731821241::0::1::::<><>::
-README.md::TextFile::-1::1731819209::0::1::::<><>::
-utils.gd::GDScript::-1::1731819209::0::1::::<>RefCounted<>::
-::res://assets/::1741320528
-background.png::CompressedTexture2D::6076622037080720918::1740544163::1740544197::1::::<><>::
-Cliff.png::CompressedTexture2D::7691191735865653982::1727572470::1731818907::1::::<><>::
-Environment.png::CompressedTexture2D::288884946834692190::1727572470::1731818907::1::::<><>::
-Forest Props.png::CompressedTexture2D::1957957008035312418::1727577136::1731818907::1::::<><>::
-Ground Tileset.png::CompressedTexture2D::475046008543653405::1727572470::1731818907::1::::<><>::
-Insanibc.ttf::FontFile::3412682322206341011::1740548776::1740548776::1::::<><>::
-logo_restoria.png::CompressedTexture2D::3954760861019029471::1740547917::1740547966::1::::<><>::
-player.png::CompressedTexture2D::1089768421319376772::1727572796::1731818907::1::::<><>::
-README.txt::TextFile::-1::1727577921::0::1::::<><>::
-Rocks.png::CompressedTexture2D::1064053936896979418::1727572470::1731818907::1::::<><>::
-sand4.png::CompressedTexture2D::2241534129352572891::1741320518::1741320528::1::::<><>::
-sand.png::CompressedTexture2D::8426613392769818082::1741318191::1741318204::1::::<><>::
-Stairs Bridge.png::CompressedTexture2D::4701153570881158519::1727572470::1731818907::1::::<><>::
-Stone Path Tileset.png::CompressedTexture2D::796305880069413661::1727572470::1731818907::1::::<><>::
-Tileset.png::CompressedTexture2D::7995091064456998223::1727572470::1731818907::1::::<><>::
-Trees.png::CompressedTexture2D::8660029382691669423::1727572470::1731818907::1::::<><>::
-trees.tscn::PackedScene::4053676320034146883::1727630639::0::1::::<><>::uid://dvm8oiaciqnnb::::res://assets/Trees.png
-Water Flora.png::CompressedTexture2D::7958847139248379791::1727572470::1731818907::1::::<><>::
-Water Tileset.png::CompressedTexture2D::8806764393676851380::1727572470::1731818907::1::::<><>::
-water.tres::VisualShader::7033012485533934150::1741317679::0::1::::<><>::
-WaterTilesOffsetWithBlur.png::CompressedTexture2D::2633288073117350168::1739676749::1740268443::1::::<><>::
-water_material.tres::ShaderMaterial::3862939557717292343::1741317679::0::1::::<><>::uid://c7g3xnpd216i1::::res://assets/water.tres
-Zombie Apocalypse Tileset Reference.png::CompressedTexture2D::7033620838183588620::1727572497::1731818907::1::::<><>::
-::res://scenes/::1741324158
-button.gd::GDScript::-1::1740288487::0::1::::<>Button<>::
-game.tscn::PackedScene::4369556143774301939::1741324157::0::1::::<><>::uid://dgxbidvs2bktq::::res://scenes/player.tscn<>res://scripts/game_manager.gd<>uid://dvm8oiaciqnnb::::res://assets/Trees.png<>uid://g1d650enu8v6::::res://assets/Ground Tileset.png<>res://scripts/label.gd<>uid://25pjbln7jyik::::res://assets/Forest Props.png<>uid://dlnlbxk0jpgvf::::res://assets/Water Flora.png<>uid://dl548m5cy5aip::::res://assets/Tileset.png<>uid://dxqcegbwjewfc::::res://assets/Water Tileset.png<>uid://ll0bn8h7k2yr::::res://assets/Stone Path Tileset.png<>uid://bdrt4tsbhkn1q::::res://assets/WaterTilesOffsetWithBlur.png<>uid://bvbibx7ovly8n::::res://assets/water_material.tres<>uid://c7heyb7ywfjoe::::res://assets/Zombie Apocalypse Tileset Reference.png<>res://scenes/water_collision.gd<>res://scenes/button.gd<>uid://dsb6ddx1jmwa1::::res://assets/sand.png<>uid://6620e87ouvcd::::res://assets/sand4.png
-mainmenu.tscn::PackedScene::5392528530617067414::1740549705::0::1::::<><>::res://scripts/mainmenu.gd<>uid://csttcvgd2v5sc::::res://assets/background.png<>uid://bovem5n7iar5t::::res://assets/Insanibc.ttf<>uid://bwlyllvfhx0wh::::res://assets/logo_restoria.png
-player.tscn::PackedScene::7627950995459791350::1741324158::0::1::::<><>::res://scripts/player.gd<>uid://pr5ldv544x4w::::res://assets/player.png
-trash.tscn::PackedScene::2068976322076637372::1740549691::0::1::::<><>::uid://c7heyb7ywfjoe::::res://assets/Zombie Apocalypse Tileset Reference.png<>res://scripts/trash.gd
-water_collision.gd::GDScript::-1::1740290512::0::1::::<>TileMapLayer<>::
-::res://scripts/::1740592207
-game_manager.gd::GDScript::-1::1740549808::0::1::::<>Node<>::
-label.gd::GDScript::-1::1739336219::0::1::::<>Label<>::
-mainmenu.gd::GDScript::-1::1740549810::0::1::::<>Control<>::
-player.gd::GDScript::-1::1740600465::0::1::::<>CharacterBody2D<>::
-signalbus.gd::GDScript::-1::1739336119::0::1::::<>Node<>::
-trash.gd::GDScript::-1::1739336119::0::1::::<>Area2D<>::
-::res://web/::1739423321
-::res://web/Restoria/::1739423324
-Trash picker-upper.apple-touch-icon.png::CompressedTexture2D::5191769102568892144::1739423276::1739423324::1::::<><>::
-Trash picker-upper.icon.png::CompressedTexture2D::7523386735035476503::1739423276::1739423324::1::::<><>::
-Trash picker-upper.png::CompressedTexture2D::7189422438053388174::1739423276::1739423324::1::::<><>::
+::res://::1742073846
+.wakatime.cfg::TextFile::-1::1731824953::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1740631424::0::1::::<><>::
+icon.svg::CompressedTexture2D::2009730725351236007::1727575888::1741740602::1::::<><>::
+::res://addons/::1731825177
+::res://addons/godot_super-wakatime/::1731825169
+api_key_prompt.tscn::PackedScene::3919262858641749045::1731822809::0::1::::<><>::
+counter.tscn::PackedScene::6849360014225833986::1731822809::0::1::::<><>::
+decompressor.gd::GDScript::-1::1731822809::0::1::::<>RefCounted<>::
+godot_super-wakatime.gd::GDScript::-1::1731822809::0::1::::<>EditorPlugin<>::
+heartbeat.gd::GDScript::-1::1731822809::0::1::::<>RefCounted<>::
+plugin.cfg::TextFile::-1::1731824841::0::1::::<><>::
+README.md::TextFile::-1::1731822809::0::1::::<><>::
+utils.gd::GDScript::-1::1731822809::0::1::::<>RefCounted<>::
+::res://assets/::1742073628
+background.png::CompressedTexture2D::6076622037080720918::1740547763::1741740603::1::::<><>::
+Cliff.png::CompressedTexture2D::7691191735865653982::1727576070::1741740602::1::::<><>::
+Environment.png::CompressedTexture2D::288884946834692190::1727576070::1741740602::1::::<><>::
+Forest Props.png::CompressedTexture2D::1957957008035312418::1727580736::1741740603::1::::<><>::
+Ground Tileset.png::CompressedTexture2D::475046008543653405::1727576070::1741740602::1::::<><>::
+Insanibc.ttf::FontFile::3412682322206341011::1740552376::1741740602::1::::<><>::
+logo_restoria.png::CompressedTexture2D::3954760861019029471::1740551517::1741740603::1::::<><>::
+player.png::CompressedTexture2D::1089768421319376772::1727576396::1741740602::1::::<><>::
+README.txt::TextFile::-1::1727581521::0::1::::<><>::
+Rocks.png::CompressedTexture2D::1064053936896979418::1727576070::1741740602::1::::<><>::
+sand4.png::CompressedTexture2D::2241534129352572891::1741324118::1741740602::1::::<><>::
+sand.png::CompressedTexture2D::8426613392769818082::1741321791::1741740602::1::::<><>::
+Stairs Bridge.png::CompressedTexture2D::4701153570881158519::1727576070::1741740602::1::::<><>::
+Stone Path Tileset.png::CompressedTexture2D::796305880069413661::1727576070::1741740602::1::::<><>::
+Tileset.png::CompressedTexture2D::7995091064456998223::1727576070::1741740602::1::::<><>::
+Trees.png::CompressedTexture2D::8660029382691669423::1727576070::1741740602::1::::<><>::
+trees.tscn::PackedScene::4053676320034146883::1727634239::0::1::::<><>::uid://dvm8oiaciqnnb::::res://assets/Trees.png
+Water Flora.png::CompressedTexture2D::7958847139248379791::1727576070::1741740602::1::::<><>::
+Water Tileset.png::CompressedTexture2D::8806764393676851380::1727576070::1741740602::1::::<><>::
+water.tres::VisualShader::7033012485533934150::1742073628::0::1::::<><>::
+WaterTilesOffsetWithBlur.png::CompressedTexture2D::2633288073117350168::1739680349::1741740602::1::::<><>::
+water_material.tres::ShaderMaterial::3862939557717292343::1742073628::0::1::::<><>::uid://c7g3xnpd216i1::::res://assets/water.tres
+Zombie Apocalypse Tileset Reference.png::CompressedTexture2D::7033620838183588620::1727576097::1741740602::1::::<><>::
+::res://scenes/::1742073775
+button.gd::GDScript::-1::1740292087::0::1::::<>Button<>::
+dungeon_1.tscn::PackedScene::7220049786071646817::1742073630::0::1::::<><>::uid://g1d650enu8v6::::res://assets/Ground Tileset.png<>uid://dsb6ddx1jmwa1::::res://assets/sand.png<>uid://6620e87ouvcd::::res://assets/sand4.png<>uid://dgxbidvs2bktq::::res://scenes/player.tscn
+game.tscn::PackedScene::4369556143774301939::1742073775::0::1::::<><>::uid://dgxbidvs2bktq::::res://scenes/player.tscn<>res://scripts/game_manager.gd<>uid://dvm8oiaciqnnb::::res://assets/Trees.png<>uid://g1d650enu8v6::::res://assets/Ground Tileset.png<>res://scripts/label.gd<>uid://25pjbln7jyik::::res://assets/Forest Props.png<>uid://dlnlbxk0jpgvf::::res://assets/Water Flora.png<>uid://dl548m5cy5aip::::res://assets/Tileset.png<>uid://dxqcegbwjewfc::::res://assets/Water Tileset.png<>uid://ll0bn8h7k2yr::::res://assets/Stone Path Tileset.png<>uid://bdrt4tsbhkn1q::::res://assets/WaterTilesOffsetWithBlur.png<>uid://bvbibx7ovly8n::::res://assets/water_material.tres<>uid://c7heyb7ywfjoe::::res://assets/Zombie Apocalypse Tileset Reference.png<>res://scenes/water_collision.gd<>res://scenes/button.gd<>uid://dsb6ddx1jmwa1::::res://assets/sand.png<>uid://6620e87ouvcd::::res://assets/sand4.png
+mainmenu.tscn::PackedScene::5392528530617067414::1741793971::0::1::::<><>::res://scripts/mainmenu.gd<>uid://csttcvgd2v5sc::::res://assets/background.png<>uid://bovem5n7iar5t::::res://assets/Insanibc.ttf<>uid://bwlyllvfhx0wh::::res://assets/logo_restoria.png
+player.tscn::PackedScene::7627950995459791350::1742073629::0::1::::<><>::res://scripts/player.gd<>uid://pr5ldv544x4w::::res://assets/player.png
+trash.tscn::PackedScene::2068976322076637372::1742073630::0::1::::<><>::uid://c7heyb7ywfjoe::::res://assets/Zombie Apocalypse Tileset Reference.png<>res://scripts/trash.gd
+water_collision.gd::GDScript::-1::1740294112::0::1::::<>TileMapLayer<>::
+::res://scripts/::1741980864
+game_manager.gd::GDScript::-1::1741793970::0::1::::<>Node<>::
+global.gd::GDScript::-1::1741793970::0::1::::<>Node<>::
+label.gd::GDScript::-1::1739339819::0::1::::<>Label<>::
+mainmenu.gd::GDScript::-1::1741793333::0::1::::<>Control<>::
+player.gd::GDScript::-1::1741980864::0::1::::<>CharacterBody2D<>::
+signalbus.gd::GDScript::-1::1739339719::0::1::::<>Node<>::
+trash.gd::GDScript::-1::1739339719::0::1::::<>Area2D<>::
+::res://web/::1739426921
+::res://web/Restoria/::1741740602
+Trash picker-upper.apple-touch-icon.png::CompressedTexture2D::5191769102568892144::1739426876::1741740602::1::::<><>::
+Trash picker-upper.icon.png::CompressedTexture2D::7523386735035476503::1739426876::1741740602::1::::<><>::
+Trash picker-upper.png::CompressedTexture2D::7189422438053388174::1739426876::1741740602::1::::<><>::

@@ -18,6 +18,7 @@ config/icon="res://assets/logo_restoria.png"
 [autoload]
 
 Signalbus="*res://scripts/signalbus.gd"
+Global="*res://scripts/global.gd"
 
 [display]
 
