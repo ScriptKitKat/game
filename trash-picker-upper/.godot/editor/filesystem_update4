@@ -1,10 +1,7 @@
 res://scenes/game.tscn
 res://assets/water.tres
 res://assets/water_material.tres
-res://scenes/player.tscn
-res://scenes/dungeon_1.tscn
-res://scenes/trash.tscn
 res://scripts/mainmenu.gd
-res://scenes/start_camera.gd
-res://scripts/global.gd
-res://scripts/player.gd
+res://scenes/dungeon_1.tscn
+res://scenes/player.tscn
+res://scenes/trash.tscn
