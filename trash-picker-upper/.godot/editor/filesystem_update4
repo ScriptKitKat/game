@@ -5,3 +5,4 @@ res://scripts/mainmenu.gd
 res://scenes/dungeon_1.tscn
 res://scenes/player.tscn
 res://scenes/trash.tscn
+res://default_bus_layout.tres
