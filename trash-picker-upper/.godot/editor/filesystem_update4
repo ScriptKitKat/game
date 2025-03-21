@@ -1,8 +1,11 @@
 res://scenes/game.tscn
+res://assets/new_shader.gdshader
 res://assets/water.tres
 res://assets/water_material.tres
+res://assets/trees.tres
 res://scripts/mainmenu.gd
 res://scenes/dungeon_1.tscn
 res://scenes/player.tscn
 res://scenes/trash.tscn
-res://default_bus_layout.tres
+res://scripts/game_manager.gd
+res://scripts/trash.gd

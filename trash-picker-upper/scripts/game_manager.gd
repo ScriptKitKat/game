@@ -1,8 +1,8 @@
 extends Node
 
 var trash = preload("res://scenes/trash.tscn")
-@export var trash_count: int = 200  # Number of trash items to generate
-@export var map_area: Rect2 = Rect2(Vector2(0, 0), Vector2(1152, 768))  # Define map bounds
+@export var trash_count: int = 10  # Number of trash items to generate
+@export var map_area: Rect2 = Rect2(Vector2(30, 20), Vector2(50, 50))  # Define map bounds
 
 var global
 
