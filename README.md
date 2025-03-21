@@ -1,3 +1,5 @@
+Itch: https://scriptkitkat.itch.io/restoria
+
 Plot:
 You have a pet bird who heard bird gossip there’s this dude who taxidermies birds and wants to create his own island city with galleries of his taxidermy bird collection.
 You really like your pet bird, and your pet bird is asking you to help save the birds on the island, so you do.
